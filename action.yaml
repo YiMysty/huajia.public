@@ -1,0 +1,10 @@
+# action.yml
+name: 'Run azcopy'
+description: 'Run az copy task to copy file'
+inputs:
+
+outputs:
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
